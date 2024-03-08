@@ -34,6 +34,7 @@ class RecipeListModel : public QAbstractListModel
     QHash<int, QByteArray> roleNames() const override;
 
     void append(Recipe *reciped);
+    void remove(int index);
 
    signals:
     void countChanged();

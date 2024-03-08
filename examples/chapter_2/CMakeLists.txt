@@ -34,6 +34,7 @@ set_target_properties(appchapter_2 PROPERTIES
 target_include_directories(appchapter_2 PUBLIC
     src/
     src/entity
+    src/infrastructure
 )
 
 target_link_libraries(appchapter_2

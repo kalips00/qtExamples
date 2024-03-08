@@ -65,3 +65,14 @@ void RecipeListModel::append(Recipe *recipe)
         endInsertRows();
     }
 }
+
+void RecipeListModel::remove(int index)
+{
+    if (index >= 0 && index < _recipeList.size())
+    {
+        qDebug() << "remove ::" << index;
+        beginRemoveRows({}, index, index);
+        _recipeList.remove(index);
+        endRemoveRows();
+    }
+}

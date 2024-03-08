@@ -1,2 +1,5 @@
 *.user
 examples/builds/
+examples/build-chapter_1-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/
+examples/build-chapter_2-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/build.ninja
+examples/build-chapter_2-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/
