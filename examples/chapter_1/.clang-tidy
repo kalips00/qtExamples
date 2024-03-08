@@ -1,0 +1,17 @@
+---
+Checks:          '
+clang-diagnostic-*,clang-analyzer-*,
+google-build-namespaces,google-default-arguments,google-explicit-constructor,google-global-names-in-headers,google-runtime-*,
+llvm-namespace-comment,
+hicpp-deprecated-headers,hicpp-exception-baseclass,hicpp-explicit-conversions,hicpp-invalid-access-moved,hicpp-move-const-arg,hicpp-named-parameter,hicpp-new-delete-operators,hicpp-noexcept-move,hicpp-special-member-functions,hicpp-static-assert,hicpp-undelegated-constructor,
+misc-*,
+modernize-deprecated-headers,modernize-make-*,modernize-replace-auto-ptr,modernize-use-bool-literals,modernize-use-default-member-init,modernize-use-equals-*,modernize-use-nullptr,modernize-use-override,
+readability-*,
+performance-*,
+bugprone-*'
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+AnalyzeTemporaryDtors: false
+FormatStyle:     none
+User:            yaverley
+CheckOptions:    
